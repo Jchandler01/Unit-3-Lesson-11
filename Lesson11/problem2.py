@@ -1,0 +1,14 @@
+print('-' * 65)
+print('Narrative Bot: ')
+print()
+name = input('Student Name: ')
+grade = input('Grade: ')
+grade = int(grade)
+
+if grade <= 65:
+	print('Narrative: ')
+	print(name + ', your final grade in AP computer science is ' + grade + '. You have excelled in all components of the class! I wish you continued success in the next semester of AP Computer science! ')
+else: 
+	print('Narrative: ')
+	print(name + ', your final grade in AP Computer Science is ' + grade + '. This largely a result of missing projects and homework assignments. unfortunately, because this grade is less than 65, you will have to complete an MBA assignment next semester. ')
+print('-' * 65)
